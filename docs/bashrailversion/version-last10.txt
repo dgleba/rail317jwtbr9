@@ -1,0 +1,62 @@
+ ~~~~~~~~~~~~~~~ Careful, this may be missing one version, but may hint this project history. ~~~~~~~~~~~~~~~~~~
+
+commit 412c1ae10f77c3a57d7f3120dbad88a4d01c25a6
+Author: David Gleba <dgleba@gmail.com>
+Date:   Fri Dec 30 11:09:05 2016 -0500
+
+    fix vertcal misalignment on top row of index pages
+
+commit 4b2f3ff2f93fca6ba71c95f1e734bca68ff83c33
+Author: David Gleba <dgleba@gmail.com>
+Date:   Thu Dec 29 22:05:22 2016 -0500
+
+    add jwt token auth 2016-12-29
+
+commit 4feb0e85740f949dee13fc92307f17c4bd498901
+Author: David Gleba <dgleba@gmail.com>
+Date:   Wed Dec 28 14:28:22 2016 -0500
+
+    make name optional
+
+commit 5c5c786c33099bfd07a64aa925b4da6e83441e86
+Author: David Gleba <dgleba@gmail.com>
+Date:   Mon Dec 26 22:39:18 2016 -0500
+
+    fix 2016-12-26
+
+commit 3c4bff1d924998b8197f2f956be37e5948aa15e8
+Author: David Gleba <dgleba@gmail.com>
+Date:   Sun Dec 11 20:32:40 2016 -0500
+
+    fix temp file names
+
+commit 912b6cceaf9cf1d27e535e3711f1d65df0b2b985
+Author: dgleba <dgleba@gmail.com>
+Date:   Wed Dec 7 07:09:19 2016 -0500
+
+    remove bakup from sed
+
+commit ab900e68df11cbec61f1546405dc8f51d059a6da
+Author: dgleba <dgleba@gmail.com>
+Date:   Tue Dec 6 22:23:54 2016 -0500
+
+    minor
+
+commit 4752f4dbd9b15155d3fc1767b583c5c0a86bdab7
+Author: dgleba <dgleba@gmail.com>
+Date:   Tue Dec 6 22:21:06 2016 -0500
+
+    add user to tmp file names
+
+commit f89afd788126c0348b7b93a854cd7605c11c0cad
+Merge: 3ff4273 479efc9
+Author: dgleba <dgleba@gmail.com>
+Date:   Tue Dec 6 22:09:05 2016 -0500
+
+    Merge branch 'master' of https://github.com/dgleba/bashrail
+
+commit 3ff42732ddb88e97f382915f4774332730ad4243
+Author: dgleba <dgleba@gmail.com>
+Date:   Tue Dec 6 22:07:05 2016 -0500
+
+    add bakup to sed command for osx compatibility
