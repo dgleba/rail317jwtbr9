@@ -1,0 +1,45 @@
+
+
+From: Dave Gleba 
+Sent: Monday, January 02, 2017 5:00 PM
+To: Chris Strutton (CStrutton@stackpole.com); 'chris@rodandfly.ca'
+Subject: api 2017-01-02
+
+Api docs
+https://github.com/dgleba/bashrail/tree/master/docsbr
+
+https://github.com/RohitRox/Rails-API-and-JWT/tree/master/doc/api/posts
+
+
+cloud9 - how to run it there.
+https://github.com/dgleba/rail316jwt/blob/master/README.md
+
+api with products etc.
+https://github.com/dgleba/rail317jwtbr9
+
+tables definitions
+https://github.com/dgleba/bashrail/blob/master/1mk.sh
+
+
+db
+….\rail317jwtbr9\db\development.sqlite3
+
+
+
+
+
+
+ 
+
+David Gleba P.Eng.
+Continous Improvement Team Leader
+
+Stackpole International
+128 Monteith Ave.
+Stratford, ON, N5A 6T7
+519.271.6060 x 232
+519.271.7560  Fax
+dgleba@stackpole.com
+
+
+
