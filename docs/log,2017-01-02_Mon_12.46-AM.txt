@@ -125,3 +125,13 @@ Set-Cookie: _rail317jwtbr9_session=ck5lM2FCQlk3NjJrVDhvbWlENzZrVmFzNStOYzNjYnB5V
 dgleba@PMDS-3HZGD42 MINGW64 ~
 $
 
+_____________
+
+
+
+curl -X GET --header 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo0LCJleHAiOjE0ODM0NDAxNTF9.NYpWZXVT-u3IeznRWBgd1jhdtvSdmd_F6ykuaT-YMjw' 'http://pmdsdata4:3003/products.json'    
+
+
+curl -X POST --header 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo0LCJleHAiOjE0ODM0NDAxNTF9.NYpWZXVT-u3IeznRWBgd1jhdtvSdmd_F6ykuaT-YMjw' 'http://pmdsdata4:3003/products.json'    
+
+

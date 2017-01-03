@@ -1,0 +1,140 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2017-01-03T13:21:30.655Z",
+	"__export_source": "insomnia.desktop.app:v4.0.13",
+	"resources": [
+		{
+			"_id": "wrk_f85ce67a32d14f7e916d4f1221824a76",
+			"parentId": null,
+			"modified": 1482185129700,
+			"created": 1482185129700,
+			"name": "Insomnia",
+			"description": "",
+			"certificates": [],
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_9f21040783b64a0481b6d7002ede3d3d",
+			"parentId": "wrk_f85ce67a32d14f7e916d4f1221824a76",
+			"modified": 1482185180667,
+			"created": 1482185180667,
+			"name": "Base Environment",
+			"data": {},
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_65a55ff884e4431b9a393ce789f407e4",
+			"parentId": "wrk_f85ce67a32d14f7e916d4f1221824a76",
+			"modified": 1483449621649,
+			"created": 1482185180713,
+			"name": "Default Jar",
+			"cookies": [
+				{
+					"creation": "2016-12-19T22:06:20.783Z",
+					"key": "_incdident295a_2016-10-24-2016-11-23_session",
+					"value": "K1BBTCsxUUF6bytlR3o4bTQwenk5RWN5RXpNbVRmQ0NCRWpyZDRiOVNGYWVnTUZ0V1UvdGRLZUp5QVYvcGYvNUtFNmc4RzJpTFhtUFJZdy90R1RKRFg1L3c2TWNhbVlaS3M3bUNOL0pSbWx4V0ZqUGFqQU9NVzJPTC95NTY4T1h6aS9PMEQ3Tk1tSmVXOG9vWWVwcWZnPT0tLUwwN2h4b2RLNmRxenJ2MDBhbjJFSlE9PQ%3D%3D--b52de8fb40af2ffa5eee9702b1507d627cd55303",
+					"domain": "pmdsdata.stackpole.ca",
+					"path": "/",
+					"httpOnly": true,
+					"hostOnly": true,
+					"lastAccessed": "2016-12-19T22:08:47.091Z"
+				},
+				{
+					"creation": "2017-01-02T21:46:06.127Z",
+					"key": "_rail317jwtbr9_session",
+					"value": "aEdYeVB1WWRXNmt0MEM3RVcwR1hhMEVaMjIwSnQrV0JUbXZLTVEzR2pqd1hhbHRucnhkcTd0eFlmcVJGeHJhTzV3OWJWUDBqbGpTUjc2UUNBVkVWQmt1QVBmRDhNVDBpNUlaeE5ubFQ2V1lCSFVhT3BOZkhhMnZPRjZERjloMExmN0NrcHovZTJkeUh1dG14TDFLUzNrNDNRYmFUM3d2RXgrOFMwdGVkMy9NMlBtVFV6YVp1dENidk16WlJ1ZUxJYVMwZ2RQMGE1ZnlBK2dKUVZvckFsN0lmTThmTnBlS2hRa1BnSng4KzhBRT0tLTZjYWVFYnRwZTZ4a0pZRzVZLzEvamc9PQ%3D%3D--19a8bc97e9636ce3e15e2562dc5bf07ab352ff88",
+					"path": "/",
+					"httpOnly": true,
+					"hostOnly": true,
+					"domain": "pmdsdata4",
+					"lastAccessed": "2017-01-03T13:20:21.646Z"
+				}
+			],
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "req_2e6539fb3ca04d5db5c39076626590b9",
+			"parentId": "wrk_f85ce67a32d14f7e916d4f1221824a76",
+			"modified": 1483449545749,
+			"created": 1483449450476,
+			"url": "http://pmdsdata4:3003/users/sign_in.json",
+			"name": "rail317 sigin in",
+			"method": "POST",
+			"body": {
+				"mimeType": "multipart/form-data",
+				"params": [
+					{
+						"name": "email",
+						"value": "dgleba@gmail.com"
+					},
+					{
+						"name": "password",
+						"value": "1234"
+					}
+				]
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "multipart/form-data"
+				},
+				{
+					"name": "",
+					"value": ""
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1483449450476,
+			"_type": "request"
+		},
+		{
+			"_id": "req_c650141675624346b60699db56e765c0",
+			"parentId": "wrk_f85ce67a32d14f7e916d4f1221824a76",
+			"modified": 1483449587218,
+			"created": 1483393542862,
+			"url": "http://pmdsdata4:3003/products.json",
+			"name": "rail317 index",
+			"method": "GET",
+			"body": {},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo0LCJleHAiOjE0ODM1MTQxNjV9.v2Us9dkvtEYhNEnMgoUlVnowI_lWCWFqzUyHf_euSCE"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1483393542862,
+			"_type": "request"
+		},
+		{
+			"_id": "req_cd6a86183c9c445c95774064405946a5",
+			"parentId": "wrk_f85ce67a32d14f7e916d4f1221824a76",
+			"modified": 1483449612250,
+			"created": 1483393581538,
+			"url": "http://pmdsdata4:3003/products.json",
+			"name": "rail317 create product",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\"name\":\"david2 Linen Keyboard\"}"
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo0LCJleHAiOjE0ODM1MTQxNjV9.v2Us9dkvtEYhNEnMgoUlVnowI_lWCWFqzUyHf_euSCE"
+				},
+				{
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1483393542861,
+			"_type": "request"
+		}
+	]
+}

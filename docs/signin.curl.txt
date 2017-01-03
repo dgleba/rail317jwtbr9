@@ -1,0 +1,5 @@
+ 
+curl -H "Content-Type: application/json" \
+      -X POST -D ./curldump -i\
+      -d '{"user": {"email":"dgleba1@gmail.com","password":"1234"}}' \
+      http://pmdsdata4:3003/users/sign_in.json
