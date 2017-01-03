@@ -26,13 +26,19 @@ class ProductsController < ApplicationController
 
   # POST /products
   def create
-    @product = Product.new(product_params)
+    # @product = Product.new(product_params)
 
-    if @product.save
-      redirect_to @product, notice: 'Product was successfully created.'
-    else
-      render :new
-    end
+    # if @product.save
+      # redirect_to @product, notice: 'Product was successfully created.'
+    # else
+      # render :new
+    # end
+    
+    # http://www.justinweiss.com/articles/respond-to-without-all-the-pain/
+    @product = Product.new(product_params)
+    flash[:notice] = "Product was successfully created." if @product.save
+    respond_with(@product)
+    
   end
 
   # PATCH/PUT /products/1
