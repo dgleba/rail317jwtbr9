@@ -14,7 +14,21 @@ curl -i  -v --request POST \
   --header 'authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo0LCJleHAiOjE0ODM1MTQxNjV9.v2Us9dkvtEYhNEnMgoUlVnowI_lWCWFqzUyHf_euSCE' \
   --header 'content-type: application/json' \
   --cookie _rail317jwtbr9_session=aEdYeVB1WWRXNmt0MEM3RVcwR1hhMEVaMjIwSnQrV0JUbXZLTVEzR2pqd1hhbHRucnhkcTd0eFlmcVJGeHJhTzV3OWJWUDBqbGpTUjc2UUNBVkVWQmt1QVBmRDhNVDBpNUlaeE5ubFQ2V1lCSFVhT3BOZkhhMnZPRjZERjloMExmN0NrcHovZTJkeUh1dG14TDFLUzNrNDNRYmFUM3d2RXgrOFMwdGVkMy9NMlBtVFV6YVp1dENidk16WlJ1ZUxJYVMwZ2RQMGE1ZnlBK2dKUVZvckFsN0lmTThmTnBlS2hRa1BnSng4KzhBRT0tLTZjYWVFYnRwZTZ4a0pZRzVZLzEvamc9PQ%3D%3D--19a8bc97e9636ce3e15e2562dc5bf07ab352ff88 \
-  --data '{"name":"david5 Linen Keyboard"}'
+  --data '{"name":"David6 Linen Keyboard"}'
+  
+_____________
+
+
+curl -i   --request POST \
+  --url http://pmdsdata4:3003/products.json \
+  --header 'authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE0ODM1MzkzNTB9.R7vx3cHGDOhoOks0a1G9j5axbuLbBaUj99XJR2EQzlo' \
+  --header 'content-type: application/json' \
+  --data '{"name":"David6 Linen Keyboard"}'
+  
+
+2017-01-03_Tue_15.20-PM
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE0ODM1MzkzNTB9.R7vx3cHGDOhoOks0a1G9j5axbuLbBaUj99XJR2EQzlo
+  
   
 _____________
 
@@ -25,123 +39,30 @@ response after changing controller.
 
 
 dgleba@PMDS-3HZGD42 MINGW64 ~
-$ curl -i  -v --request POST \
+$ curl -i   --request POST \
 >   --url http://pmdsdata4:3003/products.json \
->   --header 'authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo0LCJleHAiOjE0ODM1MTQxNjV9.v2Us9dkvtEYhNEnMgoUlVnowI_lWCWFqzUyHf_euSCE' \
+>   --header 'authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE0ODM1MzkzNTB9.R7vx3cHGDOhoOks0a1G9j5axbuLbBaUj99XJR2EQzlo' \
 >   --header 'content-type: application/json' \
->   --cookie _rail317jwtbr9_session=aEdYeVB1WWRXNmt0MEM3RVcwR1hhMEVaMjIwSnQrV0JUbXZLTVEzR2pqd1hhbHRucnhkcTd0eFlmcVJGeHJhTzV3OWJWUDBqbGpTUjc2UUNBVkVWQmt1QVBmRDhNVDBpNUlaeE5ubFQ2V1lCSFVhT3BOZkhhMnZPRjZERjloMExmN0NrcHovZTJkeUh1dG14TDFLUzNrNDNRYmFUM3d2RXgrOFMwdGVkMy9NMlBtVFV6YVp1dENidk16WlJ1ZUxJYVMwZ2RQMGE1ZnlBK2dKUVZvckFsN0lmTThmTnBlS2hRa1BnSng4KzhBRT0tLTZjYWVFYnRwZTZ4a0pZRzVZLzEvamc9PQ%3D%3D--19a8bc97e9636ce3e15e2562dc5bf07ab352ff88 \
->   --data '{"name":"david5 Linen Keyboard"}'
-* timeout on name lookup is not supported
-*   Trying 10.4.1.227...
+>   --data '{"name":"David6 Linen Keyboard"}'
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Connected to pmdsdata4 (10.4.1.227) port 3003 (#0)
-> POST /products.json HTTP/1.1
-> Host: pmdsdata4:3003
-> User-Agent: curl/7.43.0
-> Accept: */*
-> Cookie: _rail317jwtbr9_session=aEdYeVB1WWRXNmt0MEM3RVcwR1hhMEVaMjIwSnQrV0JUbXZLTVEzR2pqd1hhbHRucnhkcTd0eFlmcVJGeHJhTzV3OWJWUDBqbGpTUjc2UUNBVkVWQmt1QVBmRDhNVDBpNUlaeE5ubFQ2V1lCSFVhT3BOZkhhMnZPRjZERjloMExmN0NrcHovZTJkeUh1dG14TDFLUzNrNDNRYmFUM3d2RXgrOFMwdGVkMy9NMlBtVFV6YVp1dENidk16WlJ1ZUxJYVMwZ2RQMGE1ZnlBK2dKUVZvckFsN0lmTThmTnBlS2hRa1BnSng4KzhBRT0tLTZjYWVFYnRwZTZ4a0pZRzVZLzEvamc9PQ%3D%3D--19a8bc97e9636ce3e15e2562dc5bf07ab352ff88
-> authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo0LCJleHAiOjE0ODM1MTQxNjV9.v2Us9dkvtEYhNEnMgoUlVnowI_lWCWFqzUyHf_euSCE
-> content-type: application/json
-> Content-Length: 32
->
-} [32 bytes data]
-* upload completely sent off: 32 out of 32 bytes
-< HTTP/1.1 201 Created
-< X-Frame-Options: SAMEORIGIN
-< X-Xss-Protection: 1; mode=block
-< X-Content-Type-Options: nosniff
-< Location: http://pmdsdata4:3003/products/22
-< Content-Type: application/json; charset=utf-8
-< Etag: W/"ace38764539fe41ce74e757d828ea371"
-< Cache-Control: max-age=0, private, must-revalidate
-< X-Request-Id: cff967f1-2210-4807-b312-216f4e68df9b
-< X-Runtime: 0.070474
-< Server: WEBrick/1.3.1 (Ruby/2.3.0/2015-12-25)
-< Date: Tue, 03 Jan 2017 19:13:39 GMT
-< Content-Length: 176
-< Connection: Keep-Alive
-<
-{ [176 bytes data]
-100   208  100   176  100    32    626    113 --:--:-- --:--:-- --:--:--   626HTTP/1.1 201 Created
+100   208  100   176  100    32    564    102 --:--:-- --:--:-- --:--:--   592HTTP/1.1 201 Created
 X-Frame-Options: SAMEORIGIN
 X-Xss-Protection: 1; mode=block
 X-Content-Type-Options: nosniff
-Location: http://pmdsdata4:3003/products/22
+Location: http://pmdsdata4:3003/products/14
 Content-Type: application/json; charset=utf-8
-Etag: W/"ace38764539fe41ce74e757d828ea371"
+Etag: W/"fc1b6b686a4fb0f6f5178cce9724818a"
 Cache-Control: max-age=0, private, must-revalidate
-X-Request-Id: cff967f1-2210-4807-b312-216f4e68df9b
-X-Runtime: 0.070474
+X-Request-Id: f26d3219-819e-4a2c-85b9-a88222fb315c
+X-Runtime: 0.109806
 Server: WEBrick/1.3.1 (Ruby/2.3.0/2015-12-25)
-Date: Tue, 03 Jan 2017 19:13:39 GMT
+Date: Wed, 04 Jan 2017 14:10:21 GMT
 Content-Length: 176
 Connection: Keep-Alive
 
-{"id":22,"name":"david5 Linen Keyboard","pdate":null,"active_status":null,"sort":null,"created_at":"2017-01-03T14:13:38.991-05:00","updated_at":"2017-01-03T14:13:38.991-05:00"}
-* Connection #0 to host pmdsdata4 left intact
+{"id":14,"name":"David6 Linen Keyboard","pdate":null,"active_status":null,"sort":null,"created_at":"2017-01-04T09:10:21.165-05:00","updated_at":"2017-01-04T09:10:21.165-05:00"}
 
 dgleba@PMDS-3HZGD42 MINGW64 ~
+$
 
-  
-_____________
-
-response..
-
-dgleba@PMDS-3HZGD42 MINGW64 ~
-$   curl -i  -v --request POST \
->   --url http://pmdsdata4:3003/products.json \
->   --header 'authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo0LCJleHAiOjE0ODM1MTQxNjV9.v2Us9dkvtEYhNEnMgoUlVnowI_lWCWFqzUyHf_euSCE' \
->   --header 'content-type: application/json' \
->   --cookie _rail317jwtbr9_session=aEdYeVB1WWRXNmt0MEM3RVcwR1hhMEVaMjIwSnQrV0JUbXZLTVEzR2pqd1hhbHRucnhkcTd0eFlmcVJGeHJhTzV3OWJWUDBqbGpTUjc2UUNBVkVWQmt1QVBmRDhNVDBpNUlaeE5ubFQ2V1lCSFVhT3BOZkhhMnZPRjZERjloMExmN0NrcHovZTJkeUh1dG14TDFLUzNrNDNRYmFUM3d2RXgrOFMwdGVkMy9NMlBtVFV6YVp1dENidk16WlJ1ZUxJYVMwZ2RQMGE1ZnlBK2dKUVZvckFsN0lmTThmTnBlS2hRa1BnSng4KzhBRT0tLTZjYWVFYnRwZTZ4a0pZRzVZLzEvamc9PQ%3D%3D--19a8bc97e9636ce3e15e2562dc5bf07ab352ff88 \
->   --data '{"name":"david4 Linen Keyboard"}'
-* timeout on name lookup is not supported
-*   Trying 10.4.1.227...
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Connected to pmdsdata4 (10.4.1.227) port 3003 (#0)
-> POST /products.json HTTP/1.1
-> Host: pmdsdata4:3003
-> User-Agent: curl/7.43.0
-> Accept: */*
-> Cookie: _rail317jwtbr9_session=aEdYeVB1WWRXNmt0MEM3RVcwR1hhMEVaMjIwSnQrV0JUbXZLTVEzR2pqd1hhbHRucnhkcTd0eFlmcVJGeHJhTzV3OWJWUDBqbGpTUjc2UUNBVkVWQmt1QVBmRDhNVDBpNUlaeE5ubFQ2V1lCSFVhT3BOZkhhMnZPRjZERjloMExmN0NrcHovZTJkeUh1dG14TDFLUzNrNDNRYmFUM3d2RXgrOFMwdGVkMy9NMlBtVFV6YVp1dENidk16WlJ1ZUxJYVMwZ2RQMGE1ZnlBK2dKUVZvckFsN0lmTThmTnBlS2hRa1BnSng4KzhBRT0tLTZjYWVFYnRwZTZ4a0pZRzVZLzEvamc9PQ%3D%3D--19a8bc97e9636ce3e15e2562dc5bf07ab352ff88
-> authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo0LCJleHAiOjE0ODM1MTQxNjV9.v2Us9dkvtEYhNEnMgoUlVnowI_lWCWFqzUyHf_euSCE
-> content-type: application/json
-> Content-Length: 32
->
-} [32 bytes data]
-* upload completely sent off: 32 out of 32 bytes
-< HTTP/1.1 302 Found
-< X-Frame-Options: SAMEORIGIN
-< X-Xss-Protection: 1; mode=block
-< X-Content-Type-Options: nosniff
-< Location: http://pmdsdata4:3003/products/18
-< Content-Type: text/html; charset=utf-8
-< Cache-Control: no-cache
-< X-Request-Id: 1fdcdfc5-1c2d-4a40-b795-d6dfc575315e
-< X-Runtime: 0.090600
-< Server: WEBrick/1.3.1 (Ruby/2.3.0/2015-12-25)
-< Date: Tue, 03 Jan 2017 13:29:08 GMT
-< Content-Length: 99
-< Connection: Keep-Alive
-<
- 24   131    0     0  100    32      0    290 --:--:-- --:--:-- --:--:--   290{ [99 bytes data]
-100   131  100    99  100    32    317    102 --:--:-- --:--:-- --:--:--   317HTTP/1.1 302 Found
-X-Frame-Options: SAMEORIGIN
-X-Xss-Protection: 1; mode=block
-X-Content-Type-Options: nosniff
-Location: http://pmdsdata4:3003/products/18
-Content-Type: text/html; charset=utf-8
-Cache-Control: no-cache
-X-Request-Id: 1fdcdfc5-1c2d-4a40-b795-d6dfc575315e
-X-Runtime: 0.090600
-Server: WEBrick/1.3.1 (Ruby/2.3.0/2015-12-25)
-Date: Tue, 03 Jan 2017 13:29:08 GMT
-Content-Length: 99
-Connection: Keep-Alive
-
-<html><body>You are being <a href="http://pmdsdata4:3003/products/18">redirected</a>.</body></html>
-* Connection #0 to host pmdsdata4 left intact
-
-dgleba@PMDS-3HZGD42 MINGW64 ~
-  

@@ -26,30 +26,48 @@ class ProductsController < ApplicationController
 
   # POST /products
   def create
-    # @product = Product.new(product_params)
+    @product = Product.new(product_params)
+    # http://www.justinweiss.com/articles/respond-to-without-all-the-pain/
+    flash[:notice] = "Successfully created.." if @product.save
+    respond_with(@product)
 
+    # From rails 4.2, it was originally:
     # if @product.save
       # redirect_to @product, notice: 'Product was successfully created.'
     # else
       # render :new
     # end
-    
-    # http://www.justinweiss.com/articles/respond-to-without-all-the-pain/
-    @product = Product.new(product_params)
-    flash[:notice] = "Product was successfully created." if @product.save
-    respond_with(@product)
-    
   end
 
+  
+  
+  # PATCH/PUT /products/1
+  # def update
+    # if @product.update(product_params)
+      # respond_with(@product)
+      # # was..
+      # # redirect_to @product, notice: 'Product was successfully updated.'
+    # else
+      # render :edit
+      # # ? not sure what to do here... respond_with(@product)
+    # end
+  # end
+
+  # from rail263...
   # PATCH/PUT /products/1
   def update
-    if @product.update(product_params)
-      redirect_to @product, notice: 'Product was successfully updated.'
-    else
-      render :edit
+    respond_to do |format|
+      if @product.update(product_params)
+        format.html { redirect_to @product, notice: t('success_update') }
+        format.json { render :show, status: :ok, location: @product }
+      else
+        format.html { render :edit }
+        format.json { render json: @product.errors, status: :unprocessable_entity }
+      end
     end
   end
 
+  
   # DELETE /products/1
   def destroy
     @product.destroy
@@ -64,6 +82,6 @@ class ProductsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def product_params
-      params.require(:product).permit(:name, :pdate, :active_status, :sort, :pfeature_ids=> [])
+      params.require(:product).permit(:name, :pdate, :active_status, :sort)
     end
 end
